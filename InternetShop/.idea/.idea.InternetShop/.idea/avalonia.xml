@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="InternetShop/App.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/CRUD/CRUD_FullOrder.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/CRUD/CRUD_Goods.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/CRUD/CRUD_OrderWin.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/CRUD/CRUD_RegUsers.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Choise.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/MainWindow.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Registration.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Tables/FullOrderWin.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Tables/GoodsWin.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Tables/OrderWin.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Tables/RegUsers.axaml" value="InternetShop/InternetShop.csproj" />
+        <entry key="InternetShop/Tables/Users.axaml" value="InternetShop/InternetShop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

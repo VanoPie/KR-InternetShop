@@ -1,0 +1,38 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="InternetShop.Choise"
+        MaxWidth="600"
+        MaxHeight="370"
+        Title="Выбор таблицы данных">
+    <Grid>
+        <Image Source = "C:\Users\VanoP\Desktop\Новая папка\Practica\InternetShop\InternetShop\obj\bg.png" Width="750" Height="370"/>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Margin = "10 10 0 0" FontSize = "20" FontWeight="Bold"> Выбор таблицы для просмотра</TextBlock>
+            <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                <Button Name="user" Content="Пользователи" Click="Users"></Button>
+                <TextBlock Margin = "10 10 10 10"> - данные о зарегестрированных пользователях </TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                <Button Name="order" Content="Созданные заказы" Click="Orders"></Button>
+                <TextBlock Margin = "10 10 10 10"> - данные о созданых заказах </TextBlock>
+            </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                    <Button Name="full_orders" Content="Составленные заказы" Click="FullOrders"></Button>
+                    <TextBlock Margin = "10 10 10 10"> - данные о полностью составленных заказах  </TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                    <Button Name="good" Content="Товары" Click="Goods"></Button>
+                    <TextBlock Margin = "10 10 10 10"> - информация об имеющихся товарах </TextBlock>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" Margin="10 100 0 0">
+                    <Button Name="exit" Content="Выход" Click="Exit_OnClick"></Button>
+                </StackPanel>
+        </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
